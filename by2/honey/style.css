@@ -6,6 +6,57 @@ body {
     padding-bottom: 300px;
 }
 
+.a_buttons {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgba(205, 198, 60, 0.8);
+    background-color: #333;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.report {
+    position: fixed;
+    left: 3;
+    top: 10;
+}
+
+.nav_pages {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.nav_pages > *:not(:first-child) {
+    margin-left: 5px;
+}
+.page {
+    text-decoration: none;
+    font-size: 50px;
+}
+
+
+.title {
+    padding: 10 30 10 30px;
+    /* gap: 5px; */
+    /* height: 40px; */
+    width: 100%;
+    display: flex;
+    /* Add flexbox properties */
+    justify-content: center;
+    /* Center the child horizontally */
+    align-items: center;
+    flex-direction: column;
+}
+.title_item {
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 25px;
+    margin: 15px 0;
+    width: 100%;
+    color: rgba(205, 198, 60, 0.8);
+}
+
 
 .card-content {
     padding: 10 30 10 30px;
