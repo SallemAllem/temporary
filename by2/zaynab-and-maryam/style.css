@@ -17,9 +17,20 @@ body {
 }
 
 .report {
-    position: fixed;
-    left: 3;
-    top: 10;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    font-size: 20px;
+    height: fit-content;
+    width: fit-content;
+    color: rgba(205, 198, 60, 0.8);
+    background-color: #555;
+    position: fixed; /* Фиксированное позиционирование относительно вьюпорта */
+    z-index: 1000;
+    bottom: 15px; /* Прижимаем к нижней части */
+    left: 50%; /* Центрирование по горизонтали */
+    transform: translateX(-50%); /* Точное центрирование кнопки */
+    /* Добавьте стили для кнопки по желанию */
 }
 
 .nav_pages {
