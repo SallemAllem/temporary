@@ -18,17 +18,19 @@ data.forEach(card => {
                 ${russian}
             </div>  
 
-
-            <div id="${cardID}" class="back arfont">
-                ${arabic}
-            </div>
-
             <div class="buttons">
             <button id="idHide${buttonID}" class="buttons_style" onclick="hideText(${cardID})">скрыть текст</button>
     <button id="id${buttonID}" class="buttons_style" onclick="revealLetter(${cardID})" disabled>открыть букву</button>
     <button id="id${buttonID}" class="buttons_style" onclick="revealWord(${cardID})" disabled>открыть слово</button>
     <button id="id${buttonID}" class="buttons_style" onclick="revealAll(${cardID})" disabled>открыть всё</button>
             </div>
+
+
+            <div id="${cardID}" class="back arfont">
+                ${arabic}
+            </div>
+
+            
 
             
             
